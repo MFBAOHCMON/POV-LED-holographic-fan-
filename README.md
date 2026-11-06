@@ -10,16 +10,14 @@ The device uses a high-speed brushless motor to spin a strip of individually add
 
 The hardware components listed below are selected from the project's tracking cart. All listed prices are in **Canadian Dollars (C$)**.
 
-| # | Component Description | Undiscounted Price | Discounted Price | Status / Note |
-|---|---|:---:|:---:|---|
-| 1 | **A2212 Brushless Motor (930KV/1000KV)** <br> Provides the high RPM required to achieve the POV illusion. | C$ 8.41 | C$ 7.82 | Selected |
-| 2 | **30-125A XXD HW ESC Brushless Speed Controller** <br> Controls motor velocity safely via PWM signals. | C$ 7.37 | C$ 6.35 | Selected |
-| 3 | **GHPYQKC Hall Sensor Module** <br> Detects a fixed magnet on each rotation to calculate exact RPM and index timing. | C$ 1.75 | C$ 1.71 | Selected |
-| 4 | **DC5V WS2812B LED Strip (1m / 144 LEDs, IP30)** <br> The dense light source array mounted to the fan blade. | C$ 10.38 | C$ 8.97 | Selected |
-| 5 | **Heat Shrink Tubing (1mm - 18mm Diameter)** <br> Used for insulation and clean wire management across the rotating arm. | C$ 5.85 | C$ 2.85 | Selected |
-| - | **Total Component Cost** | **C$ 33.76** | **C$ 27.70** | *Free Shipping Applicable* |
-
-*Note: The N35 NdFeB Magnets shown in the cart breakdown are left unselected as optional extras, but are recommended for triggering the Hall effect indexing system.*
+| # | Component Description | Undiscounted Price | Discounted Price |
+|---|---|:---:|:---:|
+| 1 | **A2212 Brushless Motor (930KV/1000KV)** <br> Provides the high RPM required to achieve the POV illusion. | C$ 8.41 | C$ 7.82 |
+| 2 | **30-125A XXD HW ESC Brushless Speed Controller** <br> Controls motor velocity safely via PWM signals. | C$ 7.37 | C$ 6.35 |
+| 3 | **GHPYQKC Hall Sensor Module** <br> Detects a fixed magnet on each rotation to calculate exact RPM and index timing. | C$ 1.75 | C$ 1.71 |
+| 4 | **DC5V WS2812B LED Strip (1m / 144 LEDs, IP30)** <br> The dense light source array mounted to the fan blade. | C$ 10.38 | C$ 8.97 |
+| 5 | **Heat Shrink Tubing (1mm - 18mm Diameter)** <br> Used for insulation and clean wire management across the rotating arm. | C$ 5.85 | C$ 2.85 |
+| - | **Total Component Cost** | **C$ 33.76** | **C$ 27.70** |
 
 ---
 
