@@ -2,8 +2,6 @@
 
 This document outlines the core hardware components utilized for this build, detailing their structural parameters, electrical ratings, and operational constraints.
 
----
-
 ## 📦 Component Overview
 
 ### 🔄 A2212 Brushless Motor
