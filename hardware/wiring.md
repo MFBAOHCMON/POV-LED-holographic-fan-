@@ -18,3 +18,9 @@ This document outlines the electrical connections, signal routing, and power dis
 | **WS2812B LED Strip** | +5V | Dedicated 5V Power Supply | Power Input | Do not power a high-density strip directly from an MCU pin. |
 | | GND | Dedicated 5V PSU & MCU GND | Ground | Essential to tie the LED ground and MCU ground together. |
 | | DIN (Data Input) | Microcontroller GPIO Pin | Signal Input | Needs a 330–470 Ω resistor inline to prevent data corruption. |
+
+---
+
+## Diagram
+
+<img width="2155" height="1363" alt="1000035602" src="https://github.com/user-attachments/assets/746bc95a-d1e9-4313-94c1-0b78b6f3f1fc" />
