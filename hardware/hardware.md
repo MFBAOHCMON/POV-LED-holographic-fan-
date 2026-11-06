@@ -27,7 +27,3 @@ This document outlines the core hardware components utilized for this build, det
 ### 🧲 N35 Neodymium Magnets
 * **Configuration:** High-coercivity rare-earth permanent magnets (5mm x 2mm sizing specification).
 * **Application:** Excitation source for the Hall sensor array or structural latching/alignment mechanisms.
-
----
-
-## ⚡ Power & Integration Architecture
