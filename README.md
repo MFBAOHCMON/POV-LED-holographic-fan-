@@ -27,3 +27,10 @@ The hardware components listed below are sourced from the project's tracking car
 1. **The Spin:** The **A2212 Brushless Motor** spins a rigid, lightweight **Carbon Fiber Strip** acting as the blade assembly. This arm carries the high-density **WS2812B LED strip** at an optimized constant rate (typically >1000 RPM so the human eye perceives continuous motion).
 2. **Synchronization:** Every time the blade completes a full 360-degree rotation, an **N35 Neodymium Magnet** embedded on the carbon fiber arm passes the stationary **Hall Sensor Module**, firing a hardware interrupt signal to an onboard microcontroller.
 3. **The Projection:** The microcontroller uses this timing window to slice the rotation into hundreds of tiny angular segments, updating the color data frame of the entire LED strip slice-by-slice. Because of **Persistence of Vision (POV)**, your brain blends these instantaneous radial lines into a singular, seamless circular display canvas.
+
+
+---
+
+## Diagram
+
+<img width="2155" height="1363" alt="1000035602" src="https://github.com/user-attachments/assets/f6bc6c10-013c-4644-8c61-b91d0b38f4d5" />
