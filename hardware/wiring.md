@@ -18,14 +18,3 @@ This document outlines the electrical connections, signal routing, and power dis
 | **WS2812B LED Strip** | +5V | Dedicated 5V Power Supply | Power Input | Do not power a high-density strip directly from an MCU pin. |
 | | GND | Dedicated 5V PSU & MCU GND | Ground | Essential to tie the LED ground and MCU ground together. |
 | | DIN (Data Input) | Microcontroller GPIO Pin | Signal Input | Needs a 330–470 Ω resistor inline to prevent data corruption. |
-
-## 🛠 Schematic Layout
-
-<!-- Place your custom wiring diagram or schematic image below -->
-![System Wiring Diagram](path/to/your/wiring-diagram-image.png)
-
-## ⚠ Electrical Isolation & Power Handling Guidelines
-
-* **Common Ground Baseline:** Ensure all negative terminals (GND) from the main battery, speed controller, microcontroller, and LED external power supply are directly tied together to establish a unified reference voltage.
-* **LED Power Constraints:** The high-density WS2812B addressable strip requires significant power. Isolate its +5V injection point from the microcontroller's onboard regulator to protect your logic components from severe voltage drops or thermal overloading.
-* **Data Line Protection:** Place a resistor inline on the LED data connection near the first pixel to suppress voltage spikes traveling along the signal line.
